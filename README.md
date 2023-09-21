@@ -5,6 +5,8 @@ Examles from https://learning.oreilly.com/library/view/learn-to-program/97814842
 
 ## Important regs:
 
+
+```
 %rax: This is the accumulator. It is the most widely used general-purpose register for computation.
 
 %rbx: This is known as the “base register.” This is often used for indexed addressing, which is covered in Chapter 6.
@@ -20,10 +22,23 @@ Examles from https://learning.oreilly.com/library/view/learn-to-program/97814842
 %rbp: This is the “base pointer.” We will discuss the usage of the base pointer in Chapter 11.
 
 %rsp: This is the “stack pointer.” We will discuss the stack and the stack pointer in Chapter 11.
+```
+
+```
+1 byte (8 bits): Typically just referred to as a byte
+
+2 bytes (16 bits): Known as a “word” or a “short”
+
+4 bytes (32 bits): Known as a “double-word” or an “int”
+
+8 bytes (64 bits): Known as a “quadword”4
+```
 
 
 
+> The q suffix refers to quadwords .
 
+> The q suffix refers to quadwords .
 Links:
 
 [SystemCall table](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
